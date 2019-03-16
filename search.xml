@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2019%2F03%2F16%2Ftest%2F</url>
+    <content type="text"><![CDATA[数字三角形递归1234int solve(int i,int j)&#123; return a[i][j]+(i==n?0:max(solve(i+1,j),slove(i+1,j+1)));&#125; 时间效率低 重复计算pass 递推123456int i,j;for (j=1;j&lt;=n;j++) d[n][j]=a[n][j];for (i=n-1;i&gt;=1;i--) for (j=1;j&lt;=i;j++) d[i][j]=a[i][j]+max(d[i+1][j],d[i+1][j+1]); 记忆化搜索123456int solve(int i,int j)&#123; if (d[i][j]&gt;=0) return d[i][j]; return d[i][j]=a[i][j]+(i==n?0:max(solve(i+1,j),slove(i+1,j+1)));&#125;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F03%2F16%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
