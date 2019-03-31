@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[IELTS-3.31]]></title>
+    <url>%2F2019%2F03%2F31%2FIELTS-3-31%2F</url>
+    <content type="text"><![CDATA[opinion一个观点讨论正反方表明个人立场 discussion两个观点分别讨论再给出立场 p-s客观表明问题+解决方法 two-parts]]></content>
+      <tags>
+        <tag>IELTS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[test]]></title>
     <url>%2F2019%2F03%2F16%2Ftest%2F</url>
     <content type="text"><![CDATA[数字三角形递归1234int solve(int i,int j)&#123; return a[i][j]+(i==n?0:max(solve(i+1,j),slove(i+1,j+1)));&#125; 时间效率低 重复计算pass 递推123456int i,j;for (j=1;j&lt;=n;j++) d[n][j]=a[n][j];for (i=n-1;i&gt;=1;i--) for (j=1;j&lt;=i;j++) d[i][j]=a[i][j]+max(d[i+1][j],d[i+1][j+1]); 记忆化搜索123456int solve(int i,int j)&#123; if (d[i][j]&gt;=0) return d[i][j]; return d[i][j]=a[i][j]+(i==n?0:max(solve(i+1,j),slove(i+1,j+1)));&#125;]]></content>
